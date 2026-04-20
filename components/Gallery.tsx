@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { SectionFrame } from './ui/SectionFrame';
 import { X, ChevronLeft, ChevronRight, ScanEye } from 'lucide-react';
 import { useSound } from './SoundManager';
@@ -113,7 +114,7 @@ export const Gallery: React.FC = () => {
       </div>
 
       {/* Lightbox Modal */}
-      {selectedImageIndex !== null && (
+      {selectedImageIndex !== null && createPortal(
         <div 
           className="fixed inset-0 z-[100] bg-black/95 backdrop-blur-xl flex items-center justify-center animate-[fadeIn_0.2s_ease-out]"
           onClick={closeLightbox}
@@ -163,7 +164,7 @@ export const Gallery: React.FC = () => {
             </div>
           </div>
         </div>
-      )}
+      , document.body)}
     </SectionFrame>
   );
 };
