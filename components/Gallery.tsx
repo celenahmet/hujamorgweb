@@ -73,7 +73,7 @@ export const Gallery: React.FC = () => {
                 {/* Image itself */}
                 <img 
                   src={src} 
-                  alt={`Archive Data ${i}`}
+                  alt={`HUJAM Hacettepe Game Jam Arşiv Fotoğrafı - Görsel ${i + 1}`}
                   loading="lazy"
                   className="w-full h-full object-cover 
                     filter sepia-[.5] hue-rotate-180 contrast-125 grayscale-[0.3]
