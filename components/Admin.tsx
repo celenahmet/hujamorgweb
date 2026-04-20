@@ -3,7 +3,7 @@ import * as XLSX from 'xlsx';
 import { db, auth } from '../firebase';
 import { 
   collection, query, orderBy, onSnapshot, doc, updateDoc, deleteDoc,
-  Timestamp, setDoc, serverTimestamp 
+  Timestamp, setDoc, serverTimestamp, getDoc
 } from 'firebase/firestore';
 import { signInWithEmailAndPassword, signOut, onAuthStateChanged } from 'firebase/auth';
 import { 
@@ -70,6 +70,42 @@ export const Admin: React.FC = () => {
   const [xlsxDropdownOpen, setXlsxDropdownOpen] = useState(false);
   const [deleteConfirmId, setDeleteConfirmId] = useState<string | null>(null);
   const [draggedSponsorIdx, setDraggedSponsorIdx] = useState<number | null>(null);
+
+  // Custom Login State
+  const [adminUsername, setAdminUsername] = useState('hujam.org');
+  const [adminPassword, setAdminPassword] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [loginError, setLoginError] = useState('');
+  const [isLoggingIn, setIsLoggingIn] = useState(false);
+
+  useEffect(() => {
+    if (localStorage.getItem('hujam_admin_auth') === 'true') {
+      setIsLoggedIn(true);
+    }
+  }, []);
+
+  const handleAdminLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoginError('');
+    setIsLoggingIn(true);
+    try {
+      const docRef = doc(db, 'admin_login', adminUsername);
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        if (docSnap.data().password === adminPassword) {
+          setIsLoggedIn(true);
+          localStorage.setItem('hujam_admin_auth', 'true');
+        } else {
+          setLoginError('Hatalı şifre.');
+        }
+      } else {
+        setLoginError('Kullanıcı bulunamadı.');
+      }
+    } catch (err) {
+      setLoginError('Sistem hatası. Lütfen ağ bağlantınızı kontrol edin.');
+    }
+    setIsLoggingIn(false);
+  };
 
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (u) => { setUser(u); setLoading(false); });
@@ -536,7 +572,60 @@ export const Admin: React.FC = () => {
     );
   });
 
-  if (loading) return null;
+  if (loading) {
+    return <div className="min-h-screen bg-[#050505] flex items-center justify-center text-cyber-red font-mono animate-pulse tracking-widest text-sm">SYSTEM_CONNECTING...</div>;
+  }
+
+  if (!isLoggedIn) {
+     return (
+       <div className="min-h-screen bg-[#050505] text-gray-300 font-sans flex items-center justify-center relative overflow-hidden">
+         <div className="absolute top-0 left-0 w-full h-1 bg-cyber-red opacity-50" />
+         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5 pointer-events-none" />
+         
+         <div className="w-full max-w-md p-10 bg-zinc-950/90 backdrop-blur-md border border-white/10 relative z-10 shadow-[0_0_50px_rgba(255,0,60,0.1)]">
+           <div className="absolute top-0 left-0 w-1 h-full bg-cyber-red" />
+           <div className="flex flex-col items-center mb-10">
+             <img src={hujamLogo} alt="HUJAM" className="h-12 mb-6 filter brightness-0 invert opacity-90" />
+             <h1 className="text-xl font-black text-white uppercase tracking-widest">SYSTEM_REQUIRE_AUTH</h1>
+             <p className="text-[10px] text-gray-500 font-mono tracking-widest mt-2 uppercase">// AUTHENTICATION PROTOCOL</p>
+           </div>
+           
+           <form onSubmit={handleAdminLogin} className="space-y-6">
+             <div>
+               <label className="text-[10px] text-gray-500 font-black uppercase tracking-widest mb-2 block">Kullanıcı Adı</label>
+               <input 
+                 type="text" 
+                 value={adminUsername}
+                 onChange={e => setAdminUsername(e.target.value)}
+                 className="w-full bg-black border border-white/5 p-4 text-white text-sm focus:border-cyber-red outline-none transition-all placeholder:text-zinc-700" 
+                 required 
+               />
+             </div>
+             <div>
+               <label className="text-[10px] text-gray-500 font-black uppercase tracking-widest mb-2 block">Yönetici Şifresi</label>
+               <input 
+                 type="password" 
+                 value={adminPassword}
+                 onChange={e => setAdminPassword(e.target.value)}
+                 className="w-full bg-black border border-white/5 p-4 text-white text-sm focus:border-cyber-red outline-none transition-all placeholder:text-zinc-700 font-mono" 
+                 required 
+               />
+             </div>
+             
+             {loginError && (
+               <div className="p-3 bg-red-900/20 border border-red-500/30 text-red-500 text-[11px] font-mono tracking-wide text-center">
+                 {loginError}
+               </div>
+             )}
+             
+             <GameButton type="submit" variant="primary" className="w-full py-4 justify-center" disabled={isLoggingIn}>
+               {isLoggingIn ? <Loader2 className="animate-spin w-5 h-5" /> : 'GİRİŞ YAP'}
+             </GameButton>
+           </form>
+         </div>
+       </div>
+     );
+  }
 
   const currentEventData = events.find(e => e.id === selectedEventId);
 
