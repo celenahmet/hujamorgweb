@@ -24,6 +24,8 @@ service cloud.firestore {
         allow create: if true;
         allow read, update, delete: if true; // Temporary for testing
       }
+    match /admin_login/{docId} {
+      allow read: if true;
     }
   }
 }

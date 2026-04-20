@@ -72,7 +72,7 @@ export const Admin: React.FC = () => {
   const [draggedSponsorIdx, setDraggedSponsorIdx] = useState<number | null>(null);
 
   // Custom Login State
-  const [adminUsername, setAdminUsername] = useState('hujam.org');
+  const [adminUsername, setAdminUsername] = useState('');
   const [adminPassword, setAdminPassword] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loginError, setLoginError] = useState('');
