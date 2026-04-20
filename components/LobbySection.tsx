@@ -99,26 +99,8 @@ export const LobbySection: React.FC = () => {
           </div>
         </div>
 
-        {/* Quick Preview Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-           {ads.map((ad, i) => (
-             <div key={ad.id} className="bg-zinc-900/20 border border-white/5 p-6 hover:border-cyber-red/30 transition-all group">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 bg-cyber-red/10 border border-cyber-red/20 flex items-center justify-center font-black text-cyber-red text-xs">{ad.userName[0]}</div>
-                  <div>
-                    <h4 className="text-white font-black text-xs uppercase tracking-tight">{ad.userName}</h4>
-                    <span className="text-[9px] text-zinc-600 font-bold uppercase">{ad.role}</span>
-                  </div>
-                </div>
-                <p className="text-zinc-400 text-xs italic mb-4 line-clamp-2">"{ad.description}"</p>
-                <div className="flex justify-between items-center opacity-50 group-hover:opacity-100 transition-opacity">
-                   <span className="text-[9px] text-zinc-600 font-mono">#{i + 1}_LOG</span>
-                   <button onClick={() => navigate('/lobby')} className="text-cyber-red font-black text-[9px] uppercase tracking-widest flex items-center gap-1">PROFİLİ GÖR <ArrowRight size={10} /></button>
-                </div>
-             </div>
-           ))}
-        </div>
       </div>
+
 
       {/* LOBBY INTERACTIVE MODAL */}
       {isModalOpen && (
