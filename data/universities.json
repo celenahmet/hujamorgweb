@@ -1,0 +1,1852 @@
+[
+  {
+    "UniversityUid": 173499,
+    "UniversityName": "ABDULLAH GÜL ÜNİVERSİTESİ",
+    "UniversityCity": "Kayseri",
+    "UniversityCityPlate": 38,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.agu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/173499.png"
+  },
+  {
+    "UniversityUid": 326654,
+    "UniversityName": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.acibadem.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/326654.png"
+  },
+  {
+    "UniversityUid": 385368,
+    "UniversityName": "ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "UniversityCity": "Adana",
+    "UniversityCityPlate": 1,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.atu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/385368.png"
+  },
+  {
+    "UniversityUid": 100259,
+    "UniversityName": "ADIYAMAN ÜNİVERSİTESİ",
+    "UniversityCity": "Adıyaman",
+    "UniversityCityPlate": 2,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.adiyaman.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/100259.png"
+  },
+  {
+    "UniversityUid": 100869,
+    "UniversityName": "AFYON KOCATEPE ÜNİVERSİTESİ",
+    "UniversityCity": "Afyonkarahisar",
+    "UniversityCityPlate": 3,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.aku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/100869.png"
+  },
+  {
+    "UniversityUid": 339999,
+    "UniversityName": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+    "UniversityCity": "Afyonkarahisar",
+    "UniversityCityPlate": 3,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.afsu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339999.png"
+  },
+  {
+    "UniversityUid": 101313,
+    "UniversityName": "AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ",
+    "UniversityCity": "Ağrı",
+    "UniversityCityPlate": 4,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.agri.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/101313.png"
+  },
+  {
+    "UniversityUid": 101458,
+    "UniversityName": "AKDENİZ ÜNİVERSİTESİ",
+    "UniversityCity": "Antalya",
+    "UniversityCityPlate": 7,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.akdeniz.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/101458.png"
+  },
+  {
+    "UniversityUid": 102005,
+    "UniversityName": "AKSARAY ÜNİVERSİTESİ",
+    "UniversityCity": "Aksaray",
+    "UniversityCityPlate": 68,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.aksaray.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/102005.png"
+  },
+  {
+    "UniversityUid": 274883,
+    "UniversityName": "ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ",
+    "UniversityCity": "Antalya",
+    "UniversityCityPlate": 7,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.alanya.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/274883.png"
+  },
+  {
+    "UniversityUid": 447835,
+    "UniversityName": "ALANYA ÜNİVERSİTESİ",
+    "UniversityCity": "Antalya",
+    "UniversityCityPlate": 7,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.alanyauniversity.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/447835.png"
+  },
+  {
+    "UniversityUid": 326019,
+    "UniversityName": "ALTINBAŞ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.altinbas.edu.tr/tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/326019.png"
+  },
+  {
+    "UniversityUid": 102198,
+    "UniversityName": "AMASYA ÜNİVERSİTESİ",
+    "UniversityCity": "Amasya",
+    "UniversityCityPlate": 5,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.amasya.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/102198.png"
+  },
+  {
+    "UniversityUid": 102261,
+    "UniversityName": "ANADOLU ÜNİVERSİTESİ",
+    "UniversityCity": "Eskişehir",
+    "UniversityCityPlate": 26,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.anadolu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/102261.png"
+  },
+  {
+    "UniversityUid": 411762,
+    "UniversityName": "ANKARA BİLİM ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.ankarabilim.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/411762.png"
+  },
+  {
+    "UniversityUid": 339985,
+    "UniversityName": "ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://hacibayram.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339985.png"
+  },
+  {
+    "UniversityUid": 340001,
+    "UniversityName": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.ankaramedipol.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/340001.png"
+  },
+  {
+    "UniversityUid": 324993,
+    "UniversityName": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.mgu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/324993.png"
+  },
+  {
+    "UniversityUid": 232846,
+    "UniversityName": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.asbu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/232846.png"
+  },
+  {
+    "UniversityUid": 102738,
+    "UniversityName": "ANKARA ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ankara.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/102738.png"
+  },
+  {
+    "UniversityUid": 311737,
+    "UniversityName": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.aybu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/311737.png"
+  },
+  {
+    "UniversityUid": 447662,
+    "UniversityName": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "UniversityCity": "Antalya",
+    "UniversityCityPlate": 7,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.belek.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/447662.png"
+  },
+  {
+    "UniversityUid": 327022,
+    "UniversityName": "ANTALYA BİLİM ÜNİVERSİTESİ",
+    "UniversityCity": "Antalya",
+    "UniversityCityPlate": 7,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.antalya.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/327022.png"
+  },
+  {
+    "UniversityUid": 103400,
+    "UniversityName": "ARDAHAN ÜNİVERSİTESİ",
+    "UniversityCity": "Ardahan",
+    "UniversityCityPlate": 75,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ardahan.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/103400.png"
+  },
+  {
+    "UniversityUid": 103443,
+    "UniversityName": "ARTVİN ÇORUH ÜNİVERSİTESİ",
+    "UniversityCity": "Artvin",
+    "UniversityCityPlate": 8,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.artvin.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/103443.png"
+  },
+  {
+    "UniversityUid": 255896,
+    "UniversityName": "ATAŞEHİR ADIGÜZEL MESLEK YÜKSEKOKULU",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.adiguzel.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/255896.png"
+  },
+  {
+    "UniversityUid": 103545,
+    "UniversityName": "ATATÜRK ÜNİVERSİTESİ",
+    "UniversityCity": "Erzurum",
+    "UniversityCityPlate": 25,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.atauni.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/103545.png"
+  },
+  {
+    "UniversityUid": 104090,
+    "UniversityName": "ATILIM ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.atilim.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104090.png"
+  },
+  {
+    "UniversityUid": 205351,
+    "UniversityName": "AVRASYA ÜNİVERSİTESİ",
+    "UniversityCity": "Trabzon",
+    "UniversityCityPlate": 61,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.avrasya.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/205351.png"
+  },
+  {
+    "UniversityUid": 364158,
+    "UniversityName": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ",
+    "UniversityCity": "Aydın",
+    "UniversityCityPlate": 9,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.adu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/364158.png"
+  },
+  {
+    "UniversityUid": 104140,
+    "UniversityName": "BAHÇEŞEHİR ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.bahcesehir.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104140.png"
+  },
+  {
+    "UniversityUid": 104213,
+    "UniversityName": "BALIKESİR ÜNİVERSİTESİ",
+    "UniversityCity": "Balıkesir",
+    "UniversityCityPlate": 10,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.balikesir.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104213.png"
+  },
+  {
+    "UniversityUid": 274881,
+    "UniversityName": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ",
+    "UniversityCity": "Balıkesir",
+    "UniversityCityPlate": 10,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.bandirma.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/274881.png"
+  },
+  {
+    "UniversityUid": 104578,
+    "UniversityName": "BARTIN ÜNİVERSİTESİ",
+    "UniversityCity": "Bartın",
+    "UniversityCityPlate": 74,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.bartin.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104578.png"
+  },
+  {
+    "UniversityUid": 104628,
+    "UniversityName": "BAŞKENT ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.baskent.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104628.png"
+  },
+  {
+    "UniversityUid": 104803,
+    "UniversityName": "BATMAN ÜNİVERSİTESİ",
+    "UniversityCity": "Batman",
+    "UniversityCityPlate": 72,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.batman.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104803.png"
+  },
+  {
+    "UniversityUid": 104922,
+    "UniversityName": "BAYBURT ÜNİVERSİTESİ",
+    "UniversityCity": "Bayburt",
+    "UniversityCityPlate": 69,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://bayburt.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/104922.png"
+  },
+  {
+    "UniversityUid": 306383,
+    "UniversityName": "BEYKOZ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.beykoz.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/306383.png"
+  },
+  {
+    "UniversityUid": 163894,
+    "UniversityName": "BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.bezmialem.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163894.png"
+  },
+  {
+    "UniversityUid": 105024,
+    "UniversityName": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ",
+    "UniversityCity": "Bilecik",
+    "UniversityCityPlate": 11,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.bilecik.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/105024.png"
+  },
+  {
+    "UniversityUid": 105196,
+    "UniversityName": "BİNGÖL ÜNİVERSİTESİ",
+    "UniversityCity": "Bingöl",
+    "UniversityCityPlate": 12,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.bingol.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/105196.png"
+  },
+  {
+    "UniversityUid": 251241,
+    "UniversityName": "BİRUNİ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.biruni.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/251241.png"
+  },
+  {
+    "UniversityUid": 105248,
+    "UniversityName": "BİTLİS EREN ÜNİVERSİTESİ",
+    "UniversityCity": "Bitlis",
+    "UniversityCityPlate": 13,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.beu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/105248.png"
+  },
+  {
+    "UniversityUid": 105322,
+    "UniversityName": "BOĞAZİÇİ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.boun.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/105322.png"
+  },
+  {
+    "UniversityUid": 341799,
+    "UniversityName": "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ",
+    "UniversityCity": "Bolu",
+    "UniversityCityPlate": 14,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ibu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/341799.png"
+  },
+  {
+    "UniversityUid": 355074,
+    "UniversityName": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ",
+    "UniversityCity": "Burdur",
+    "UniversityCityPlate": 15,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.mehmetakif.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/355074.png"
+  },
+  {
+    "UniversityUid": 173494,
+    "UniversityName": "BURSA TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Bursa",
+    "UniversityCityPlate": 16,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://btu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/173494.png"
+  },
+  {
+    "UniversityUid": 362386,
+    "UniversityName": "BURSA ULUDAĞ ÜNİVERSİTESİ",
+    "UniversityCity": "Bursa",
+    "UniversityCityPlate": 16,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.uludag.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/362386.png"
+  },
+  {
+    "UniversityUid": 106499,
+    "UniversityName": "ÇAĞ ÜNİVERSİTESİ",
+    "UniversityCity": "Mersin",
+    "UniversityCityPlate": 33,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.cag.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/106499.png"
+  },
+  {
+    "UniversityUid": 106545,
+    "UniversityName": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ",
+    "UniversityCity": "Çanakkale",
+    "UniversityCityPlate": 17,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.comu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/106545.png"
+  },
+  {
+    "UniversityUid": 107012,
+    "UniversityName": "ÇANKAYA ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.cankaya.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/107012.png"
+  },
+  {
+    "UniversityUid": 107056,
+    "UniversityName": "ÇANKIRI KARATEKİN ÜNİVERSİTESİ",
+    "UniversityCity": "Çankırı",
+    "UniversityCityPlate": 18,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.karatekin.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/107056.png"
+  },
+  {
+    "UniversityUid": 107211,
+    "UniversityName": "ÇUKUROVA ÜNİVERSİTESİ",
+    "UniversityCity": "Adana",
+    "UniversityCityPlate": 1,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.cu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/107211.png"
+  },
+  {
+    "UniversityUid": 384591,
+    "UniversityName": "DEMİROĞLU BİLİM ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.demiroglu.bilim.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/384591.png"
+  },
+  {
+    "UniversityUid": 107723,
+    "UniversityName": "DİCLE ÜNİVERSİTESİ",
+    "UniversityCity": "Diyarbakır",
+    "UniversityCityPlate": 21,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.dicle.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/107723.png"
+  },
+  {
+    "UniversityUid": 108112,
+    "UniversityName": "DOĞUŞ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.dogus.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/108112.png"
+  },
+  {
+    "UniversityUid": 108163,
+    "UniversityName": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.deu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/108163.png"
+  },
+  {
+    "UniversityUid": 109110,
+    "UniversityName": "DÜZCE ÜNİVERSİTESİ",
+    "UniversityCity": "Düzce",
+    "UniversityCityPlate": 81,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.duzce.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/109110.png"
+  },
+  {
+    "UniversityUid": 109290,
+    "UniversityName": "EGE ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ege.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/109290.png"
+  },
+  {
+    "UniversityUid": 109868,
+    "UniversityName": "ERCİYES ÜNİVERSİTESİ",
+    "UniversityCity": "Kayseri",
+    "UniversityCityPlate": 38,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.erciyes.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/109868.png"
+  },
+  {
+    "UniversityUid": 370189,
+    "UniversityName": "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ",
+    "UniversityCity": "Erzincan",
+    "UniversityCityPlate": 24,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.erzincan.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/370189.png"
+  },
+  {
+    "UniversityUid": 173495,
+    "UniversityName": "ERZURUM TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Erzurum",
+    "UniversityCityPlate": 25,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.erzurum.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/173495.png"
+  },
+  {
+    "UniversityUid": 110538,
+    "UniversityName": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ",
+    "UniversityCity": "Eskişehir",
+    "UniversityCityPlate": 26,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ogu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/110538.png"
+  },
+  {
+    "UniversityUid": 339997,
+    "UniversityName": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Eskişehir",
+    "UniversityCityPlate": 26,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.eskisehir.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339997.png"
+  },
+  {
+    "UniversityUid": 163897,
+    "UniversityName": "FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.fsm.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163897.png"
+  },
+  {
+    "UniversityUid": 310017,
+    "UniversityName": "FENERBAHÇE ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.fbu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/310017.png"
+  },
+  {
+    "UniversityUid": 110987,
+    "UniversityName": "FIRAT ÜNİVERSİTESİ",
+    "UniversityCity": "Elazığ",
+    "UniversityCityPlate": 23,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.firat.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/110987.png"
+  },
+  {
+    "UniversityUid": 111395,
+    "UniversityName": "GALATASARAY ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.gsu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/111395.png"
+  },
+  {
+    "UniversityUid": 133520,
+    "UniversityName": "GAZİ ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://gazi.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/133520.png"
+  },
+  {
+    "UniversityUid": 384577,
+    "UniversityName": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "UniversityCity": "Gaziantep",
+    "UniversityCityPlate": 27,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.gibtu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/384577.png"
+  },
+  {
+    "UniversityUid": 112080,
+    "UniversityName": "GAZİANTEP ÜNİVERSİTESİ",
+    "UniversityCity": "Gaziantep",
+    "UniversityCityPlate": 27,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.gantep.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/112080.png"
+  },
+  {
+    "UniversityUid": 260621,
+    "UniversityName": "GEBZE TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Kocaeli",
+    "UniversityCityPlate": 41,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.gtu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/260621.png"
+  },
+  {
+    "UniversityUid": 112836,
+    "UniversityName": "GİRESUN ÜNİVERSİTESİ",
+    "UniversityCity": "Giresun",
+    "UniversityCityPlate": 28,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.giresun.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/112836.png"
+  },
+  {
+    "UniversityUid": 113023,
+    "UniversityName": "GÜMÜŞHANE ÜNİVERSİTESİ",
+    "UniversityCity": "Gümüşhane",
+    "UniversityCityPlate": 29,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.gumushane.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/113023.png"
+  },
+  {
+    "UniversityUid": 113082,
+    "UniversityName": "HACETTEPE ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://hacettepe.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/113082.png"
+  },
+  {
+    "UniversityUid": 113681,
+    "UniversityName": "HAKKARİ ÜNİVERSİTESİ",
+    "UniversityCity": "Hakkari",
+    "UniversityCityPlate": 30,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.hakkari.edu.tr / www.hu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/113681.png"
+  },
+  {
+    "UniversityUid": 113699,
+    "UniversityName": "HALİÇ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.halic.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/113699.png"
+  },
+  {
+    "UniversityUid": 113746,
+    "UniversityName": "HARRAN ÜNİVERSİTESİ",
+    "UniversityCity": "Şanlıurfa",
+    "UniversityCityPlate": 63,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.harran.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/113746.png"
+  },
+  {
+    "UniversityUid": 138586,
+    "UniversityName": "HASAN KALYONCU ÜNİVERSİTESİ",
+    "UniversityCity": "Gaziantep",
+    "UniversityCityPlate": 27,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.hku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/138586.png"
+  },
+  {
+    "UniversityUid": 367208,
+    "UniversityName": "HATAY MUSTAFA KEMAL ÜNİVERSİTESİ",
+    "UniversityCity": "Hatay",
+    "UniversityCityPlate": 31,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.mku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/367208.png"
+  },
+  {
+    "UniversityUid": 114218,
+    "UniversityName": "HİTİT ÜNİVERSİTESİ",
+    "UniversityCity": "Çorum",
+    "UniversityCityPlate": 19,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.hitit.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114218.png"
+  },
+  {
+    "UniversityUid": 114315,
+    "UniversityName": "IĞDIR ÜNİVERSİTESİ",
+    "UniversityCity": "Iğdır",
+    "UniversityCityPlate": 76,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.igdir.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114315.png"
+  },
+  {
+    "UniversityUid": 339998,
+    "UniversityName": "ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ",
+    "UniversityCity": "Isparta",
+    "UniversityCityPlate": 32,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://isparta.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339998.png"
+  },
+  {
+    "UniversityUid": 114385,
+    "UniversityName": "IŞIK ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.isikun.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114385.png"
+  },
+  {
+    "UniversityUid": 274887,
+    "UniversityName": "İBN HALDUN ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.ihu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/274887.png"
+  },
+  {
+    "UniversityUid": 105118,
+    "UniversityName": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.bilkent.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/105118.png"
+  },
+  {
+    "UniversityUid": 114436,
+    "UniversityName": "İNÖNÜ ÜNİVERSİTESİ",
+    "UniversityCity": "Malatya",
+    "UniversityCityPlate": 44,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.inonu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114436.png"
+  },
+  {
+    "UniversityUid": 274882,
+    "UniversityName": "İSKENDERUN TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Hatay",
+    "UniversityCityPlate": 31,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.iste.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/274882.png"
+  },
+  {
+    "UniversityUid": 163900,
+    "UniversityName": "İSTANBUL 29 MAYIS ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.29mayis.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163900.png"
+  },
+  {
+    "UniversityUid": 114773,
+    "UniversityName": "İSTANBUL AREL ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.arel.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114773.png"
+  },
+  {
+    "UniversityUid": 339995,
+    "UniversityName": "İSTANBUL ATLAS ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.atlas.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339995.png"
+  },
+  {
+    "UniversityUid": 114827,
+    "UniversityName": "İSTANBUL AYDIN ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.aydin.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114827.png"
+  },
+  {
+    "UniversityUid": 448766,
+    "UniversityName": "İSTANBUL BEYKENT ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.beykent.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/448766.png"
+  },
+  {
+    "UniversityUid": 114907,
+    "UniversityName": "İSTANBUL BİLGİ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.bilgi.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/114907.png"
+  },
+  {
+    "UniversityUid": 241174,
+    "UniversityName": "İSTANBUL ESENYURT ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.esenyurt.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/241174.png"
+  },
+  {
+    "UniversityUid": 391144,
+    "UniversityName": "İSTANBUL GALATA ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.galata.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/391144.png"
+  },
+  {
+    "UniversityUid": 315098,
+    "UniversityName": "İSTANBUL GEDİK ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.gedik.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/315098.png"
+  },
+  {
+    "UniversityUid": 130959,
+    "UniversityName": "İSTANBUL GELİŞİM ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.gelisim.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/130959.png"
+  },
+  {
+    "UniversityUid": 302687,
+    "UniversityName": "İSTANBUL KENT ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.kent.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/302687.png"
+  },
+  {
+    "UniversityUid": 115022,
+    "UniversityName": "İSTANBUL KÜLTÜR ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.iku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/115022.png"
+  },
+  {
+    "UniversityUid": 173496,
+    "UniversityName": "İSTANBUL MEDENİYET ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.medeniyet.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/173496.png"
+  },
+  {
+    "UniversityUid": 163888,
+    "UniversityName": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.medipol.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163888.png"
+  },
+  {
+    "UniversityUid": 447904,
+    "UniversityName": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.nisantasi.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/447904.png"
+  },
+  {
+    "UniversityUid": 360777,
+    "UniversityName": "İSTANBUL OKAN ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.okan.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/360777.png"
+  },
+  {
+    "UniversityUid": 274886,
+    "UniversityName": "İSTANBUL RUMELİ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.rumeli.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/274886.png"
+  },
+  {
+    "UniversityUid": 163898,
+    "UniversityName": "İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.izu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163898.png"
+  },
+  {
+    "UniversityUid": 432690,
+    "UniversityName": "İSTANBUL SAĞLIK VE SOSYAL BİLİMLER MESLEK YÜKSEKOKULU",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.issb.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/432690.png"
+  },
+  {
+    "UniversityUid": 410560,
+    "UniversityName": "İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.istun.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/410560.png"
+  },
+  {
+    "UniversityUid": 220121,
+    "UniversityName": "İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.sisli.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/220121.png"
+  },
+  {
+    "UniversityUid": 115069,
+    "UniversityName": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.itu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/115069.png"
+  },
+  {
+    "UniversityUid": 115335,
+    "UniversityName": "İSTANBUL TİCARET ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.ticaret.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/115335.png"
+  },
+  {
+    "UniversityUid": 440213,
+    "UniversityName": "İSTANBUL TOPKAPI ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.topkapi.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/440213.png"
+  },
+  {
+    "UniversityUid": 115373,
+    "UniversityName": "İSTANBUL ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.istanbul.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/115373.png"
+  },
+  {
+    "UniversityUid": 339984,
+    "UniversityName": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://iuc.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339984.png"
+  },
+  {
+    "UniversityUid": 315415,
+    "UniversityName": "İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.yeniyuzyil.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/315415.png"
+  },
+  {
+    "UniversityUid": 274888,
+    "UniversityName": "İSTİNYE ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.istinye.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/274888.png"
+  },
+  {
+    "UniversityUid": 302686,
+    "UniversityName": "İZMİR BAKIRÇAY ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://bakircay.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/302686.png"
+  },
+  {
+    "UniversityUid": 302685,
+    "UniversityName": "İZMİR DEMOKRASİ ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.idu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/302685.png"
+  },
+  {
+    "UniversityUid": 116147,
+    "UniversityName": "İZMİR EKONOMİ ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.ieu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/116147.png"
+  },
+  {
+    "UniversityUid": 173498,
+    "UniversityName": "İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ikc.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/173498.png"
+  },
+  {
+    "UniversityUid": 334490,
+    "UniversityName": "İZMİR KAVRAM MESLEK YÜKSEKOKULU",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.kavram.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/334490.png"
+  },
+  {
+    "UniversityUid": 339996,
+    "UniversityName": "İZMİR TINAZTEPE ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.tinaztepe.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339996.png"
+  },
+  {
+    "UniversityUid": 116207,
+    "UniversityName": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.iyte.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/116207.png"
+  },
+  {
+    "UniversityUid": 116281,
+    "UniversityName": "KADİR HAS ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.khas.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/116281.png"
+  },
+  {
+    "UniversityUid": 116345,
+    "UniversityName": "KAFKAS ÜNİVERSİTESİ",
+    "UniversityCity": "Kars",
+    "UniversityCityPlate": 36,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.kafkas.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/116345.png"
+  },
+  {
+    "UniversityUid": 339994,
+    "UniversityName": "KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ",
+    "UniversityCity": "Kahramanmaraş",
+    "UniversityCityPlate": 46,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.istiklal.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339994.png"
+  },
+  {
+    "UniversityUid": 116608,
+    "UniversityName": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ",
+    "UniversityCity": "Kahramanmaraş",
+    "UniversityCityPlate": 46,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.ksu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/116608.png"
+  },
+  {
+    "UniversityUid": 325756,
+    "UniversityName": "KAPADOKYA ÜNİVERSİTESİ",
+    "UniversityCity": "Nevşehir",
+    "UniversityCityPlate": 50,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.kapadokya.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/325756.png"
+  },
+  {
+    "UniversityUid": 116950,
+    "UniversityName": "KARABÜK ÜNİVERSİTESİ",
+    "UniversityCity": "Karabük",
+    "UniversityCityPlate": 78,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.karabuk.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/116950.png"
+  },
+  {
+    "UniversityUid": 117127,
+    "UniversityName": "KARADENİZ TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Trabzon",
+    "UniversityCityPlate": 61,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ktu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/117127.png"
+  },
+  {
+    "UniversityUid": 117553,
+    "UniversityName": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ",
+    "UniversityCity": "Karaman",
+    "UniversityCityPlate": 70,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.kmu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/117553.png"
+  },
+  {
+    "UniversityUid": 117673,
+    "UniversityName": "KASTAMONU ÜNİVERSİTESİ",
+    "UniversityCity": "Kastamonu",
+    "UniversityCityPlate": 37,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.kastamonu.edu.tr/index.php/tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/117673.png"
+  },
+  {
+    "UniversityUid": 339993,
+    "UniversityName": "KAYSERİ ÜNİVERSİTESİ",
+    "UniversityCity": "Kayseri",
+    "UniversityCityPlate": 38,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.kayseri.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339993.png"
+  },
+  {
+    "UniversityUid": 117803,
+    "UniversityName": "KIRIKKALE ÜNİVERSİTESİ",
+    "UniversityCity": "Kırıkkale",
+    "UniversityCityPlate": 71,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://kku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/117803.png"
+  },
+  {
+    "UniversityUid": 118122,
+    "UniversityName": "KIRKLARELİ ÜNİVERSİTESİ",
+    "UniversityCity": "Kırklareli",
+    "UniversityCityPlate": 39,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.klu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/118122.png"
+  },
+  {
+    "UniversityUid": 354265,
+    "UniversityName": "KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ",
+    "UniversityCity": "Kırşehir",
+    "UniversityCityPlate": 40,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.ahievran.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/354265.png"
+  },
+  {
+    "UniversityUid": 118186,
+    "UniversityName": "KİLİS 7 ARALIK ÜNİVERSİTESİ",
+    "UniversityCity": "Kilis",
+    "UniversityCityPlate": 79,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.kilis.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/118186.png"
+  },
+  {
+    "UniversityUid": 411763,
+    "UniversityName": "KOCAELİ SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "UniversityCity": "Kocaeli",
+    "UniversityCityPlate": 41,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.kocaelisaglik.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/411763.png"
+  },
+  {
+    "UniversityUid": 118239,
+    "UniversityName": "KOCAELİ ÜNİVERSİTESİ",
+    "UniversityCity": "Kocaeli",
+    "UniversityCityPlate": 41,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.kocaeli.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/118239.png"
+  },
+  {
+    "UniversityUid": 118853,
+    "UniversityName": "KOÇ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.ku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/118853.png"
+  },
+  {
+    "UniversityUid": 241176,
+    "UniversityName": "KONYA GIDA VE TARIM ÜNİVERSİTESİ",
+    "UniversityCity": "Konya",
+    "UniversityCityPlate": 42,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.gidatarim.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/241176.png"
+  },
+  {
+    "UniversityUid": 339979,
+    "UniversityName": "KONYA TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Konya",
+    "UniversityCityPlate": 42,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ktun.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339979.png"
+  },
+  {
+    "UniversityUid": 166433,
+    "UniversityName": "KTO KARATAY ÜNİVERSİTESİ",
+    "UniversityCity": "Konya",
+    "UniversityCityPlate": 42,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.karatay.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/166433.png"
+  },
+  {
+    "UniversityUid": 351149,
+    "UniversityName": "KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ",
+    "UniversityCity": "Kütahya",
+    "UniversityCityPlate": 43,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://dpu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/351149.png"
+  },
+  {
+    "UniversityUid": 339982,
+    "UniversityName": "KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+    "UniversityCity": "Kütahya",
+    "UniversityCityPlate": 43,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ksbu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339982.png"
+  },
+  {
+    "UniversityUid": 332474,
+    "UniversityName": "LOKMAN HEKİM ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.lokmanhekim.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/332474.png"
+  },
+  {
+    "UniversityUid": 339983,
+    "UniversityName": "MALATYA TURGUT ÖZAL ÜNİVERSİTESİ",
+    "UniversityCity": "Malatya",
+    "UniversityCityPlate": 44,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.ozal.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339983.png"
+  },
+  {
+    "UniversityUid": 118883,
+    "UniversityName": "MALTEPE ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.maltepe.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/118883.png"
+  },
+  {
+    "UniversityUid": 315839,
+    "UniversityName": "MANİSA CELÂL BAYAR ÜNİVERSİTESİ",
+    "UniversityCity": "Manisa",
+    "UniversityCityPlate": 45,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.cbu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/315839.png"
+  },
+  {
+    "UniversityUid": 118994,
+    "UniversityName": "MARDİN ARTUKLU ÜNİVERSİTESİ",
+    "UniversityCity": "Mardin",
+    "UniversityCityPlate": 47,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.artuklu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/118994.png"
+  },
+  {
+    "UniversityUid": 119094,
+    "UniversityName": "MARMARA ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.marmara.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/119094.png"
+  },
+  {
+    "UniversityUid": 215913,
+    "UniversityName": "MEF ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.mef.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/215913.png"
+  },
+  {
+    "UniversityUid": 119917,
+    "UniversityName": "MERSİN ÜNİVERSİTESİ",
+    "UniversityCity": "Mersin",
+    "UniversityCityPlate": 33,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.mersin.edu.tr/idari/genel-sekreterlik",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/119917.png"
+  },
+  {
+    "UniversityUid": 120301,
+    "UniversityName": "MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.msgsu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/120301.png"
+  },
+  {
+    "UniversityUid": 442563,
+    "UniversityName": "MUDANYA ÜNİVERSİTESİ",
+    "UniversityCity": "Bursa",
+    "UniversityCityPlate": 16,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://mudanya.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/442563.png"
+  },
+  {
+    "UniversityUid": 120444,
+    "UniversityName": "MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ",
+    "UniversityCity": "Muğla",
+    "UniversityCityPlate": 48,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.mu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/120444.png"
+  },
+  {
+    "UniversityUid": 307919,
+    "UniversityName": "MUNZUR ÜNİVERSİTESİ",
+    "UniversityCity": "Tunceli",
+    "UniversityCityPlate": 62,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.munzur.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/307919.png"
+  },
+  {
+    "UniversityUid": 121164,
+    "UniversityName": "MUŞ ALPARSLAN ÜNİVERSİTESİ",
+    "UniversityCity": "Muş",
+    "UniversityCityPlate": 49,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.alparslan.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/121164.png"
+  },
+  {
+    "UniversityUid": 173500,
+    "UniversityName": "NECMETTİN ERBAKAN ÜNİVERSİTESİ",
+    "UniversityCity": "Konya",
+    "UniversityCityPlate": 42,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.erbakan.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/173500.png"
+  },
+  {
+    "UniversityUid": 246224,
+    "UniversityName": "NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ",
+    "UniversityCity": "Nevşehir",
+    "UniversityCityPlate": 50,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.nevsehir.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/246224.png"
+  },
+  {
+    "UniversityUid": 306556,
+    "UniversityName": "NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ",
+    "UniversityCity": "Niğde",
+    "UniversityCityPlate": 51,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.ohu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/306556.png"
+  },
+  {
+    "UniversityUid": 163891,
+    "UniversityName": "NUH NACİ YAZGAN ÜNİVERSİTESİ",
+    "UniversityCity": "Kayseri",
+    "UniversityCityPlate": 38,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.nny.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163891.png"
+  },
+  {
+    "UniversityUid": 121946,
+    "UniversityName": "ONDOKUZ MAYIS ÜNİVERSİTESİ",
+    "UniversityCity": "Samsun",
+    "UniversityCityPlate": 55,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.omu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/121946.png"
+  },
+  {
+    "UniversityUid": 122395,
+    "UniversityName": "ORDU ÜNİVERSİTESİ",
+    "UniversityCity": "Ordu",
+    "UniversityCityPlate": 52,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.odu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/122395.png"
+  },
+  {
+    "UniversityUid": 122571,
+    "UniversityName": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.metu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/122571.png"
+  },
+  {
+    "UniversityUid": 122735,
+    "UniversityName": "OSMANİYE KORKUT ATA ÜNİVERSİTESİ",
+    "UniversityCity": "Osmaniye",
+    "UniversityCityPlate": 80,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.osmaniye.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/122735.png"
+  },
+  {
+    "UniversityUid": 324992,
+    "UniversityName": "OSTİM TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.ostimteknik.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/324992.png"
+  },
+  {
+    "UniversityUid": 122827,
+    "UniversityName": "ÖZYEĞİN ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.ozyegin.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/122827.png"
+  },
+  {
+    "UniversityUid": 122831,
+    "UniversityName": "PAMUKKALE ÜNİVERSİTESİ",
+    "UniversityCity": "Denizli",
+    "UniversityCityPlate": 20,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.pau.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/122831.png"
+  },
+  {
+    "UniversityUid": 136233,
+    "UniversityName": "PİRİ REİS ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.pirireis.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/136233.png"
+  },
+  {
+    "UniversityUid": 123221,
+    "UniversityName": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ",
+    "UniversityCity": "Rize",
+    "UniversityCityPlate": 53,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://erdogan.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/123221.png"
+  },
+  {
+    "UniversityUid": 123400,
+    "UniversityName": "SABANCI ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.sabanciuniv.edu",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/123400.png"
+  },
+  {
+    "UniversityUid": 270121,
+    "UniversityName": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.sbu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/270121.png"
+  },
+  {
+    "UniversityUid": 339988,
+    "UniversityName": "SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ",
+    "UniversityCity": "Sakarya",
+    "UniversityCityPlate": 54,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.subu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339988.png"
+  },
+  {
+    "UniversityUid": 123409,
+    "UniversityName": "SAKARYA ÜNİVERSİTESİ",
+    "UniversityCity": "Sakarya",
+    "UniversityCityPlate": 54,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.sakarya.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/123409.png"
+  },
+  {
+    "UniversityUid": 339989,
+    "UniversityName": "SAMSUN ÜNİVERSİTESİ",
+    "UniversityCity": "Samsun",
+    "UniversityCityPlate": 55,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.samsun.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339989.png"
+  },
+  {
+    "UniversityUid": 241177,
+    "UniversityName": "SANKO ÜNİVERSİTESİ",
+    "UniversityCity": "Gaziantep",
+    "UniversityCityPlate": 27,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.sanko.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/241177.png"
+  },
+  {
+    "UniversityUid": 123902,
+    "UniversityName": "SELÇUK ÜNİVERSİTESİ",
+    "UniversityCity": "Konya",
+    "UniversityCityPlate": 42,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.selcuk.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/123902.png"
+  },
+  {
+    "UniversityUid": 124703,
+    "UniversityName": "SİİRT ÜNİVERSİTESİ",
+    "UniversityCity": "Siirt",
+    "UniversityCityPlate": 56,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://siirt.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/124703.png"
+  },
+  {
+    "UniversityUid": 124805,
+    "UniversityName": "SİNOP ÜNİVERSİTESİ",
+    "UniversityCity": "Sinop",
+    "UniversityCityPlate": 57,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.sinop.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/124805.png"
+  },
+  {
+    "UniversityUid": 339990,
+    "UniversityName": "SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "UniversityCity": "Sivas",
+    "UniversityCityPlate": 58,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.sivas.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339990.png"
+  },
+  {
+    "UniversityUid": 344737,
+    "UniversityName": "SİVAS CUMHURİYET ÜNİVERSİTESİ",
+    "UniversityCity": "Sivas",
+    "UniversityCityPlate": 58,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.cumhuriyet.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/344737.png"
+  },
+  {
+    "UniversityUid": 124902,
+    "UniversityName": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ",
+    "UniversityCity": "Isparta",
+    "UniversityCityPlate": 32,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.sdu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/124902.png"
+  },
+  {
+    "UniversityUid": 125536,
+    "UniversityName": "ŞIRNAK ÜNİVERSİTESİ",
+    "UniversityCity": "Şırnak",
+    "UniversityCityPlate": 73,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.sirnak.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/125536.png"
+  },
+  {
+    "UniversityUid": 339991,
+    "UniversityName": "TARSUS ÜNİVERSİTESİ",
+    "UniversityCity": "Mersin",
+    "UniversityCityPlate": 33,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.tarsus.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339991.png"
+  },
+  {
+    "UniversityUid": 163892,
+    "UniversityName": "TED ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.tedu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163892.png"
+  },
+  {
+    "UniversityUid": 356278,
+    "UniversityName": "TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ",
+    "UniversityCity": "Tekirdağ",
+    "UniversityCityPlate": 59,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.nku.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/356278.png"
+  },
+  {
+    "UniversityUid": 125552,
+    "UniversityName": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.etu.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/125552.png"
+  },
+  {
+    "UniversityUid": 367245,
+    "UniversityName": "TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ",
+    "UniversityCity": "Tokat",
+    "UniversityCityPlate": 60,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.gop.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/367245.png"
+  },
+  {
+    "UniversityUid": 163889,
+    "UniversityName": "TOROS ÜNİVERSİTESİ",
+    "UniversityCity": "Mersin",
+    "UniversityCityPlate": 33,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://www.toros.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/163889.png"
+  },
+  {
+    "UniversityUid": 339992,
+    "UniversityName": "TRABZON ÜNİVERSİTESİ",
+    "UniversityCity": "Trabzon",
+    "UniversityCityPlate": 61,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.trabzon.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/339992.png"
+  },
+  {
+    "UniversityUid": 125577,
+    "UniversityName": "TRAKYA ÜNİVERSİTESİ",
+    "UniversityCity": "Edirne",
+    "UniversityCityPlate": 22,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.trakya.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/125577.png"
+  },
+  {
+    "UniversityUid": 203267,
+    "UniversityName": "TÜRK HAVA KURUMU ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.thk.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/203267.png"
+  },
+  {
+    "UniversityUid": 201784,
+    "UniversityName": "TÜRK-ALMAN ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.tau.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/201784.png"
+  },
+  {
+    "UniversityUid": 125968,
+    "UniversityName": "UFUK ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.ufuk.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/125968.png"
+  },
+  {
+    "UniversityUid": 126537,
+    "UniversityName": "UŞAK ÜNİVERSİTESİ",
+    "UniversityCity": "Uşak",
+    "UniversityCityPlate": 64,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.usak.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/126537.png"
+  },
+  {
+    "UniversityUid": 206795,
+    "UniversityName": "ÜSKÜDAR ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.uskudar.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/206795.png"
+  },
+  {
+    "UniversityUid": 337414,
+    "UniversityName": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ",
+    "UniversityCity": "Van",
+    "UniversityCityPlate": 65,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.yyu.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/337414.png"
+  },
+  {
+    "UniversityUid": 126742,
+    "UniversityName": "YALOVA ÜNİVERSİTESİ",
+    "UniversityCity": "Yalova",
+    "UniversityCityPlate": 77,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.yalova.edu.tr/rektorluk",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/126742.png"
+  },
+  {
+    "UniversityUid": 126773,
+    "UniversityName": "YAŞAR ÜNİVERSİTESİ",
+    "UniversityCity": "İzmir",
+    "UniversityCityPlate": 35,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.yasar.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/126773.png"
+  },
+  {
+    "UniversityUid": 126818,
+    "UniversityName": "YEDİTEPE ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "http://www.yeditepe.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/126818.png"
+  },
+  {
+    "UniversityUid": 126982,
+    "UniversityName": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+    "UniversityCity": "İstanbul",
+    "UniversityCityPlate": 34,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.yildiz.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/126982.png"
+  },
+  {
+    "UniversityUid": 359730,
+    "UniversityName": "YOZGAT BOZOK ÜNİVERSİTESİ",
+    "UniversityCity": "Yozgat",
+    "UniversityCityPlate": 66,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "http://www.bozok.edu.tr/",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/359730.png"
+  },
+  {
+    "UniversityUid": 206792,
+    "UniversityName": "YÜKSEK İHTİSAS ÜNİVERSİTESİ",
+    "UniversityCity": "Ankara",
+    "UniversityCityPlate": 6,
+    "UniversityType": "Vakıf",
+    "UniversityWebsite": "https://yuksekihtisasuniversitesi.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/206792.png"
+  },
+  {
+    "UniversityUid": 365890,
+    "UniversityName": "ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ",
+    "UniversityCity": "Zonguldak",
+    "UniversityCityPlate": 67,
+    "UniversityType": "Devlet",
+    "UniversityWebsite": "https://www.beun.edu.tr",
+    "University_logourl": "https://yokatlas.yok.gov.tr/assets/img/logo/365890.png"
+  },
+  {
+    "UniversityUid": 999999,
+    "UniversityName": "DİĞER",
+    "University_logourl": "https://www.svgrepo.com/show/532997/plus.svg"
+  }
+]

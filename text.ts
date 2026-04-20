@@ -7,7 +7,8 @@ export const UI_TEXT = {
       portfolio: 'Portföy',
       faq: 'SSS',
       contact: 'İletişim',
-      gallery: 'Galeri'
+      gallery: 'Galeri',
+      events: 'Etkinlik'
     },
     hero: {
       system_online: 'Sistem Çevrimiçi', // Not used anymore in design but kept for type safety if needed
@@ -42,7 +43,8 @@ export const UI_TEXT = {
         gold: "Altın Sponsorlar",
         server: "Sunucu Sponsorları",
         audio: "Ses ve Müzik Sponsorları",
-        education: "Eğitim Sponsoru"
+        education: "Eğitim Sponsoru",
+        other: "Diğer Sponsorlar"
       }
     },
     portfolio: {
@@ -79,6 +81,15 @@ export const UI_TEXT = {
       email_ph: "MAIL@ADRES.COM",
       phone: "Telefon *",
       phone_ph: "05XX XXX XX XX",
+      subject: "Konu Kategorisi *",
+      subjects: {
+        genel: "Genel",
+        jammer: "Jammer - Yarışmacı",
+        sponsor: "Sponsor",
+        istek: "İstek / Şikayet",
+        geribildirim: "Geri Bildirim",
+        diger: "Diğer"
+      },
       message: "Mesaj *",
       message_ph: "MESAJINIZI BURAYA YAZIN...",
       submit: "İLETİŞİME GEÇ",
@@ -122,7 +133,8 @@ export const UI_TEXT = {
       portfolio: 'Portfolio',
       faq: 'FAQ',
       contact: 'Contact',
-      gallery: 'Gallery'
+      gallery: 'Gallery',
+      events: 'Events'
     },
     hero: {
       system_online: 'System Online',
@@ -157,7 +169,8 @@ export const UI_TEXT = {
         gold: "Gold Sponsors",
         server: "Server Sponsors",
         audio: "Audio & Music Sponsors",
-        education: "Education Sponsor"
+        education: "Education Sponsor",
+        other: "Other Sponsors"
       }
     },
     portfolio: {
@@ -194,6 +207,15 @@ export const UI_TEXT = {
       email_ph: "MAIL@ADDRESS.COM",
       phone: "Phone *",
       phone_ph: "05XX XXX XX XX",
+      subject: "Subject Category *",
+      subjects: {
+        genel: "General",
+        jammer: "Jammer",
+        sponsor: "Sponsor",
+        istek: "Request / Complaint",
+        geribildirim: "Feedback",
+        diger: "Other"
+      },
       message: "Message *",
       message_ph: "TYPE YOUR MESSAGE HERE...",
       submit: "CONTACT US",

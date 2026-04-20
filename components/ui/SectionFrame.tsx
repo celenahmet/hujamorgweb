@@ -5,9 +5,10 @@ interface SectionFrameProps {
   title?: string;
   id?: string;
   className?: string;
+  centeredTitle?: boolean;
 }
 
-export const SectionFrame: React.FC<SectionFrameProps> = ({ children, title, id, className = '' }) => {
+export const SectionFrame: React.FC<SectionFrameProps> = ({ children, title, id, className = '', centeredTitle = false }) => {
   return (
     <section id={id} className={`relative py-20 px-4 md:px-8 border-b border-white/5 ${className}`}>
       <div className="max-w-7xl mx-auto relative">
@@ -18,14 +19,26 @@ export const SectionFrame: React.FC<SectionFrameProps> = ({ children, title, id,
         <div className="absolute top-0 right-0 w-32 h-[1px] bg-gradient-to-l from-cyber-red to-transparent opacity-50" />
         
         {title && (
-          <div className="mb-12 relative">
+          <div className={`mb-12 relative ${centeredTitle ? 'text-center' : ''}`}>
             <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tighter text-white inline-block relative z-10">
               {title}
               <span className="text-cyber-red">.</span>
             </h2>
-            <div className="absolute -bottom-2 left-0 w-12 h-1 bg-cyber-red" />
-            <div className="absolute -bottom-2 left-14 w-full h-[1px] bg-cyber-gray" />
-            <div className="text-6xl md:text-8xl font-bold absolute -top-6 -left-6 text-white/5 select-none pointer-events-none uppercase">
+            
+            {centeredTitle ? (
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 w-full max-w-sm">
+                <div className="h-[1px] bg-cyber-gray flex-1" />
+                <div className="w-12 h-1 bg-cyber-red" />
+                <div className="h-[1px] bg-cyber-gray flex-1" />
+              </div>
+            ) : (
+              <>
+                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-cyber-red" />
+                <div className="absolute -bottom-2 left-14 w-full h-[1px] bg-cyber-gray" />
+              </>
+            )}
+
+            <div className={`text-6xl md:text-8xl font-bold absolute -top-6 text-white/5 select-none pointer-events-none uppercase ${centeredTitle ? 'left-1/2 -translate-x-1/2 w-full' : '-left-6'}`}>
               {title}
             </div>
           </div>

@@ -11,26 +11,12 @@ export const Gallery: React.FC = () => {
   const t = UI_TEXT[language].gallery;
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
-  const baseUrl = "https://acsdays.com/hujam/";
+  // Dynamically import all images from the assets folder
+  const imageModules = import.meta.glob('../assets/*.{jpeg,jpg,JPG,png,webp}', { eager: true });
+  const images = Object.entries(imageModules)
+    .sort(([keyA], [keyB]) => keyA.localeCompare(keyB, undefined, { numeric: true }))
+    .map(([_, mod]: any) => mod.default || mod);
 
-  // Listeden 5. (hujam-4) ve 8. (hujam-12) görseller çıkarıldı
-  const images = [
-    `${baseUrl}hujam1.jpeg`,
-    `${baseUrl}hujam-1.jpeg`, 
-    `${baseUrl}hujam-17.jpeg`,
-    `${baseUrl}hujam-16.jpeg`,
-    // hujam-4 çıkarıldı
-    `${baseUrl}hujam-15.jpeg`,
-    `${baseUrl}hujam-13.jpeg`,
-    // hujam-12 çıkarıldı
-    `${baseUrl}hujam-6.jpeg`,
-    `${baseUrl}hujam-11.jpeg`,
-    `${baseUrl}hujam-2.jpeg`,
-    `${baseUrl}hujam-3.jpeg`,
-    `${baseUrl}hujam-5.jpeg`,
-    `${baseUrl}hujam-8.jpeg`,
-    `${baseUrl}hujam-9.jpeg`,
-  ];
 
   const openLightbox = (index: number) => {
     playClick();
@@ -70,25 +56,25 @@ export const Gallery: React.FC = () => {
   return (
     <SectionFrame id="gallery" title={t.title}>
       
-      {/* Masonry Layout Container */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+      {/* Uniform Grid Layout Container */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
         {images.map((src, i) => (
           <div 
             key={i} 
-            className="break-inside-avoid relative group cursor-pointer"
+            className="relative group cursor-pointer"
             onMouseEnter={playHover}
             onClick={() => openLightbox(i)}
           >
             {/* Cyber Frame Container */}
-            <div className="bg-zinc-900 p-1 border border-white/10 group-hover:border-cyber-red/50 transition-colors duration-300">
+            <div className="bg-zinc-900 p-1 border border-white/10 group-hover:border-cyber-red/50 transition-colors duration-300 h-full">
               
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden w-full aspect-[4/3] bg-black">
                 {/* Image itself */}
                 <img 
                   src={src} 
                   alt={`Archive Data ${i}`}
                   loading="lazy"
-                  className="w-full h-auto object-cover 
+                  className="w-full h-full object-cover 
                     filter sepia-[.5] hue-rotate-180 contrast-125 grayscale-[0.3]
                     group-hover:filter-none group-hover:scale-105 
                     transition-all duration-500 ease-out"

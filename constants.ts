@@ -193,7 +193,7 @@ export const FAQS = {
     },
     {
       question: "Finale kimler katılabiliyor?",
-      answer: "Takımlar Tunçalp Özgen Kongre ve Kültür Merkezi’ne davet edilir. Her takımdan en az bir kişi fiziksel olarak alanda bulunmalıdır."
+      answer: "Takımlar etkinlik alanına davet edilir. Her takımdan en az bir kişi fiziksel olarak alanda bulunmalıdır."
     },
     {
       question: "Hangi oyun motorlarını kullanabilirim?",
@@ -235,7 +235,7 @@ export const FAQS = {
     },
     {
       question: "Who can participate in the finals?",
-      answer: "Teams are invited to the Tunçalp Özgen Congress and Culture Center. At least one person from each team must be physically present at the venue."
+      answer: "Teams are invited to the event venue. At least one person from each team must be physically present at the venue."
     },
     {
       question: "Which game engines can I use?",
@@ -271,3 +271,7 @@ export const FAQS = {
     }
   ]
 };
+
+export const HUJAM_ORGANIZERS = [
+  { id: 'ahmet', name: 'Ahmet ÇELEN', role: '' }
+];

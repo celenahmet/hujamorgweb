@@ -1,0 +1,29 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow anyone to submit a contact message or an application
+    match /messages/{messageId} {
+      allow create, read, update, delete: if true;
+    }
+    
+    match /HUJAM_WEB/{messageId} {
+      allow create, read, update, delete: if true;
+    }
+    
+    match /events/{eventId} {
+      allow read: if true;
+      allow write: if true;
+      
+      match /applications/{appId} {
+        allow create: if true;
+        allow read, update, delete: if true; // Temporary for testing
+      }
+      
+      match /lobby/{adId} {
+        allow create: if true;
+        allow read, update, delete: if true; // Temporary for testing
+      }
+    }
+  }
+}

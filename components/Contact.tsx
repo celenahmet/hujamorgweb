@@ -5,6 +5,7 @@ import { Send, Terminal, MessageSquare, Mail, ExternalLink, Radio, Globe, Code, 
 import { useSound } from './SoundManager';
 import { useLanguage } from './LanguageContext';
 import { UI_TEXT } from '../text';
+import { AlertModal } from './ui/AlertModal';
 
 export const Contact: React.FC = () => {
   const { playClick, playHover } = useSound();
@@ -15,6 +16,7 @@ export const Contact: React.FC = () => {
     name: '',
     email: '',
     phone: '',
+    subject: 'genel',
     message: ''
   });
 
@@ -42,17 +44,105 @@ export const Contact: React.FC = () => {
     return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [modalState, setModalState] = useState<{isOpen: boolean, title: string, message: string, type?: 'warning' | 'info' | 'error'}>({
+    isOpen: false,
+    title: '',
+    message: '',
+    type: 'info'
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleDiscordClick = (e: React.MouseEvent) => {
     e.preventDefault();
     playClick();
-    // Simulating form submission
-    alert(t.alert_sent);
-    setFormData({ name: '', email: '', phone: '', message: '' });
+    setModalState({
+      isOpen: true,
+      title: "ÇOK YAKINDA",
+      message: "HUJAM Discord sunucumuz şu anda hazırlık aşamasında. Çok yakında buradayız, beklemede kalın!",
+      type: 'info'
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    playClick();
+    setIsSubmitting(true);
+    
+    try {
+      const { db } = await import('../firebase');
+      const { collection, addDoc, serverTimestamp, getFirestore: getSecondaryStore } = await import('firebase/firestore');
+      const { initializeApp, getApps, getApp } = await import('firebase/app');
+      
+      let ip = "Unknown";
+      try {
+        const ipRes = await fetch('https://api.ipify.org?format=json');
+        const ipData = await ipRes.json();
+        ip = ipData.ip;
+      } catch (ipErr) {
+        console.warn("IP fetch failed", ipErr);
+      }
+
+      const payload = {
+        ...formData,
+        ipv4: ip,
+        userAgent: navigator.userAgent,
+        submittedAt: new Date().toISOString(),
+        createdAt: serverTimestamp(),
+        read: false
+      };
+
+      // 1. Primary Submission (HUJAM_WEB) - MUST SUCCEED
+      await addDoc(collection(db, 'HUJAM_WEB'), payload);
+
+      // 2. Secondary Submission (SMS_Web) - Asynchronous background task
+      const handleSecondary = async () => {
+        try {
+          // REAL SECONDARY CONFIG
+          const secondaryConfig = {
+            apiKey: "AIzaSyCLfFKSVDlFSOwqXZKK4GNQ64wXoPcFATo",
+            authDomain: "contactforms-2f87a.firebaseapp.com",
+            projectId: "contactforms-2f87a",
+            storageBucket: "contactforms-2f87a.firebasestorage.app",
+            messagingSenderId: "257411095702",
+            appId: "1:257411095702:web:9d6aa447d457e62d68b6b7",
+            measurementId: "G-H9M272ER6F"
+          };
+
+          const secondaryApp = getApps().find(a => a.name === 'SecondaryProject') 
+            || initializeApp(secondaryConfig, 'SecondaryProject');
+          const secondaryDb = getSecondaryStore(secondaryApp);
+          
+          await addDoc(collection(secondaryDb, 'HUJAM_Web'), payload);
+          console.log("Secondary project submission successful.");
+        } catch (secErr) {
+          console.error("Secondary Firestore copy failed detailed:", secErr);
+        }
+      };
+
+      // Trigger secondary without awaiting to prevent UI hang
+      handleSecondary();
+
+      setModalState({
+        isOpen: true,
+        title: "MESAJ İLETİLDİ",
+        message: t.alert_sent
+      });
+      setFormData({ name: '', email: '', phone: '', subject: 'genel', message: '' });
+    } catch (error) {
+      console.error("Error sending message: ", error);
+      setModalState({
+        isOpen: true,
+        title: "SİSTEM HATASI",
+        message: "Mesaj gönderilirken teknik bir aksaklık oluştu. Lütfen bağlantınızı kontrol edip tekrar deneyiniz."
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   // Switched to font-sans for better Turkish character support in inputs
@@ -130,6 +220,23 @@ export const Contact: React.FC = () => {
                     </div>
 
                     <div className="group">
+                        <label htmlFor="subject" className={labelClasses}>{t.subject}</label>
+                        <select 
+                            id="subject" 
+                            name="subject" 
+                            required
+                            value={formData.subject}
+                            onChange={handleChange}
+                            onFocus={playHover}
+                            className={`${inputClasses} appearance-none cursor-pointer`}
+                        >
+                            {Object.entries(t.subjects).map(([key, val]) => (
+                                <option key={key} value={key} className="bg-zinc-900">{val as string}</option>
+                            ))}
+                        </select>
+                    </div>
+
+                    <div className="group">
                         <label htmlFor="message" className={labelClasses}>{t.message}</label>
                         <textarea 
                             id="message" 
@@ -145,8 +252,14 @@ export const Contact: React.FC = () => {
                     </div>
 
                     <div className="pt-2">
-                        <GameButton type="submit" variant="primary" className="w-full justify-center">
-                            {t.submit} <Send size={18} className="ml-2" />
+                        <GameButton 
+                            type="submit" 
+                            variant="primary" 
+                            className="w-full justify-center"
+                            disabled={isSubmitting}
+                        >
+                            {isSubmitting ? 'GÖNDERİLİYOR...' : t.submit} 
+                            {!isSubmitting && <Send size={18} className="ml-2" />}
                         </GameButton>
                     </div>
                 </form>
@@ -173,9 +286,8 @@ export const Contact: React.FC = () => {
                         
                         {/* Discord Card */}
                         <a 
-                            href="https://discord.gg/acmhacettepe" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
+                            href="#" 
+                            onClick={handleDiscordClick}
                             className="block p-3 bg-black/40 border border-white/5 hover:border-[#5865F2] hover:bg-[#5865F2]/5 transition-all group/card relative overflow-hidden"
                             onMouseEnter={playHover}
                         >
@@ -376,6 +488,14 @@ export const Contact: React.FC = () => {
 
         </div>
       </div>
+      
+      <AlertModal 
+        isOpen={modalState.isOpen}
+        onClose={() => setModalState({ ...modalState, isOpen: false })}
+        title={modalState.title}
+        message={modalState.message}
+        type={modalState.type || 'warning'}
+      />
     </SectionFrame>
   );
 };

@@ -3,6 +3,7 @@ import { SectionFrame } from './ui/SectionFrame';
 import { SPONSORS } from '../constants';
 import { Sponsor } from '../types';
 import { useLanguage } from './LanguageContext';
+import { useActiveEvent } from './EventContext';
 import { UI_TEXT } from '../text';
 
 // Tek tip Sponsor Kartı Tasarımı
@@ -25,13 +26,24 @@ const UniformSponsorCard: React.FC<{ sponsor: Sponsor }> = ({ sponsor }) => {
       <div className="absolute right-0 top-1/2 -translate-y-1/2 h-8 w-[2px] bg-white/5 group-hover:bg-cyber-red transition-colors" />
 
       {/* İsim */}
-      <span className="
-        relative z-10 font-bold text-gray-300 group-hover:text-white 
-        text-lg md:text-xl uppercase tracking-widest text-center px-4
-        group-hover:scale-105 transition-transform duration-300
-      ">
-        {sponsor.name}
-      </span>
+      {/* Logo or Name */}
+      <div className="relative z-10 w-full h-full p-6 flex items-center justify-center">
+        {sponsor.logoUrl ? (
+          <img 
+            src={sponsor.logoUrl} 
+            alt={sponsor.name} 
+            className="max-w-full max-h-full object-contain filter grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300" 
+          />
+        ) : (
+          <span className="
+            font-bold text-gray-300 group-hover:text-white 
+            text-lg md:text-xl uppercase tracking-widest text-center
+            group-hover:scale-105 transition-transform duration-300
+          ">
+            {sponsor.name}
+          </span>
+        )}
+      </div>
       
       {/* Arka Plan Efekti */}
       <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,0,60,0.05)_50%,transparent_75%,transparent_100%)] bg-[length:250%_250%] opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-pulse" />
@@ -80,39 +92,32 @@ const SponsorGroup: React.FC<SponsorGroupProps> = ({ title, items, colorClass, g
 
 export const Sponsors: React.FC = () => {
   const { language } = useLanguage();
+  const { activeEvent } = useActiveEvent();
   const t = UI_TEXT[language].sponsors;
 
-  const main = SPONSORS.filter(s => s.tier === 'main');
-  const clothing = SPONSORS.filter(s => s.tier === 'clothing');
-  const platinum = SPONSORS.filter(s => s.tier === 'platinum');
-  const gold = SPONSORS.filter(s => s.tier === 'gold');
-  const server = SPONSORS.filter(s => s.tier === 'server');
-  const education = SPONSORS.filter(s => s.tier === 'education');
-  const audio = SPONSORS.filter(s => s.tier === 'audio');
+  // Only fallback to static constants if we are on the main active event (Hujam'25) and Firestore is empty.
+  // For other events (like Hujam'26), use Firestore only.
+  const isHujam25 = activeEvent?.title === "HUJAM'25" || (!activeEvent && !activeEvent?.id);
+  const sponsorList = isHujam25 ? SPONSORS : (activeEvent?.sponsors || []);
+
+
 
   return (
     <SectionFrame id="sponsors" title={t.title}>
       <div className="max-w-7xl mx-auto">
         
+        {/* Standard Tiers */}
         <SponsorGroup 
           title={t.tiers.main} 
-          items={main} 
+          items={sponsorList.filter((s: any) => s.tier === 'main')} 
           colorClass="text-cyber-red"
           glowClass="drop-shadow-[0_0_15px_rgba(255,0,60,0.8)]"
           gradientFrom="to-cyber-red"
         />
 
         <SponsorGroup 
-          title={t.tiers.clothing} 
-          items={clothing} 
-          colorClass="text-white"
-          glowClass="drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
-          gradientFrom="to-white"
-        />
-
-        <SponsorGroup 
           title={t.tiers.platinum} 
-          items={platinum} 
+          items={sponsorList.filter((s: any) => s.tier === 'platinum')} 
           colorClass="text-blue-400"
           glowClass="drop-shadow-[0_0_15px_rgba(96,165,250,0.8)]"
           gradientFrom="to-blue-400"
@@ -120,15 +125,23 @@ export const Sponsors: React.FC = () => {
 
         <SponsorGroup 
           title={t.tiers.gold} 
-          items={gold} 
+          items={sponsorList.filter((s: any) => s.tier === 'gold')} 
           colorClass="text-yellow-400"
           glowClass="drop-shadow-[0_0_15px_rgba(250,204,21,0.8)]"
           gradientFrom="to-yellow-400"
         />
 
         <SponsorGroup 
+          title={t.tiers.clothing} 
+          items={sponsorList.filter((s: any) => s.tier === 'clothing')} 
+          colorClass="text-white"
+          glowClass="drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
+          gradientFrom="to-white"
+        />
+
+        <SponsorGroup 
           title={t.tiers.server} 
-          items={server} 
+          items={sponsorList.filter((s: any) => s.tier === 'server')} 
           colorClass="text-green-400"
           glowClass="drop-shadow-[0_0_15px_rgba(74,222,128,0.8)]"
           gradientFrom="to-green-400"
@@ -136,7 +149,7 @@ export const Sponsors: React.FC = () => {
         
         <SponsorGroup 
           title={t.tiers.audio} 
-          items={audio} 
+          items={sponsorList.filter((s: any) => s.tier === 'audio')} 
           colorClass="text-orange-400"
           glowClass="drop-shadow-[0_0_15px_rgba(251,146,60,0.8)]"
           gradientFrom="to-orange-400"
@@ -144,11 +157,48 @@ export const Sponsors: React.FC = () => {
         
         <SponsorGroup 
           title={t.tiers.education} 
-          items={education} 
+          items={sponsorList.filter((s: any) => s.tier === 'education')} 
           colorClass="text-purple-400"
           glowClass="drop-shadow-[0_0_15px_rgba(192,132,252,0.8)]"
           gradientFrom="to-purple-400"
         />
+
+        {/* Custom Tiers Rendering */}
+        {(() => {
+          const customTiers = Array.from(new Set(
+            sponsorList
+              .filter((s: any) => s.tier.startsWith('custom:'))
+              .map((s: any) => s.tier)
+          )) as string[];
+
+          return customTiers.map(tierKey => (
+            <SponsorGroup 
+              key={tierKey}
+              title={tierKey.replace('custom:', '').toUpperCase()} 
+              items={sponsorList.filter((s: any) => s.tier === tierKey)} 
+              colorClass="text-zinc-400"
+              glowClass="drop-shadow-[0_0_15px_rgba(161,161,170,0.8)]"
+              gradientFrom="to-zinc-400"
+            />
+          ));
+        })()}
+
+        {/* Legacy 'other' Tier Support */}
+        <SponsorGroup 
+          title={t.tiers.other} 
+          items={sponsorList.filter((s: any) => s.tier === 'other')} 
+          colorClass="text-zinc-400"
+          glowClass="drop-shadow-[0_0_15px_rgba(161,161,170,0.8)]"
+          gradientFrom="to-zinc-400"
+        />
+
+        {sponsorList.length === 0 && (
+          <div className="py-20 text-center border border-white/5 bg-zinc-900/20">
+            <p className="text-zinc-600 font-extrabold uppercase tracking-[0.3em] text-sm animate-pulse">
+              {language === 'tr' ? '// SPONSORLAR HENÜZ DUYURULMADI' : '// SPONSORS NOT YET ANNOUNCED'}
+            </p>
+          </div>
+        )}
 
       </div>
     </SectionFrame>

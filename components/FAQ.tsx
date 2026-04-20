@@ -5,6 +5,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useSound } from './SoundManager';
 import { useLanguage } from './LanguageContext';
 import { UI_TEXT } from '../text';
+import { useActiveEvent } from './EventContext';
 
 const FAQItemComponent: React.FC<{ item: { question: string, answer: string }, isOpen: boolean, onClick: () => void }> = ({ item, isOpen, onClick }) => {
   const { playClick } = useSound();
@@ -42,36 +43,55 @@ export const FAQ: React.FC = () => {
   const { playClick } = useSound();
   const { language } = useLanguage();
   const t = UI_TEXT[language].faq;
-  const faqs = FAQS[language];
+  const staticFaqs = FAQS[language];
+  const { activeEvent, currentEventId } = useActiveEvent();
+
+  const isHujam25 = activeEvent?.title === "HUJAM'25" || (!activeEvent && !currentEventId);
+  const allFaqs = isHujam25 ? staticFaqs : (activeEvent?.faqs || []);
 
   return (
     <SectionFrame id="faq" title={t.title}>
       <div className="max-w-3xl mr-auto bg-zinc-900/50 border border-white/5 border-l-cyber-red/50 relative transition-all duration-300">
         
-        {/* Toggle Header for the whole section */}
         <button 
             onClick={() => { playClick(); setIsSectionOpen(!isSectionOpen); }}
             className="w-full flex items-center justify-between p-6 hover:bg-white/5 transition-colors group focus:outline-none"
         >
             <span className="text-gray-400 font-mono text-sm uppercase tracking-widest group-hover:text-cyber-red transition-colors">
-                {isSectionOpen ? t.hide : t.show}
+                {isSectionOpen ? t.hide : t.show} ({allFaqs.length})
             </span>
             <div className={`p-2 rounded-full border border-white/10 group-hover:border-cyber-red transition-all ${isSectionOpen ? 'bg-cyber-red text-white' : 'text-gray-400'}`}>
                 {isSectionOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </div>
         </button>
 
-        {/* Collapsible Content */}
-        <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isSectionOpen ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+        <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isSectionOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
             <div className="px-6 pb-6 md:px-10 md:pb-10 pt-0">
-                {faqs.map((faq, index) => (
-                <FAQItemComponent 
-                    key={index} 
-                    item={faq} 
-                    isOpen={openIndex === index}
-                    onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                />
-                ))}
+                {allFaqs.length === 0 ? (
+                  <div className="py-12 text-center">
+                    <p className="text-zinc-600 font-black uppercase tracking-widest text-xs italic">
+                      {language === 'tr' ? '// SORULAR HENÜZ DUYURULMADI' : '// QUESTIONS NOT YET ANNOUNCED'}
+                    </p>
+                  </div>
+                ) : (
+                  <>
+                    {!isHujam25 && allFaqs.length > 0 && (
+                      <div className="mb-4 pb-2 border-b border-cyber-red/20">
+                        <span className="text-[9px] text-cyber-red font-black uppercase tracking-widest">
+                          {language === 'tr' ? '// ETKİNLİK S.S.S.' : '// EVENT FAQ'}
+                        </span>
+                      </div>
+                    )}
+                    {allFaqs.map((faq, index) => (
+                      <FAQItemComponent 
+                          key={index}
+                          item={faq} 
+                          isOpen={openIndex === index}
+                          onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                      />
+                    ))}
+                  </>
+                )}
             </div>
         </div>
       </div>
